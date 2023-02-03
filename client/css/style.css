@@ -1,0 +1,95 @@
+/* body */
+body{
+    overflow: auto; /* Hide scrollbars */
+    height: 97.5vh;
+    background-image: linear-gradient(white,blue);
+}
+
+/* logo */
+#logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+/* h1 heading */
+h1{
+    margin: 5px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Message input feild including send button */
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    width: 58%;
+}
+
+/* Message input feild excluding send button */
+#messageInp{
+    width: 89%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+}
+
+/* only send button */
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+
+/* display container where all the messages are shown */
+.container{
+    max-width: 700px;
+    height: 55vh;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 5px ;
+}
+
+/* styling for particular messages */
+.message{
+    background-color: beige;
+    width: 24%;
+    padding: 7px;
+    margin: 7px 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* styling for messages on left*/
+.left{
+    float: left;
+    clear: both;
+    
+}
+
+/* styling for messages on right*/
+.right{
+    float: right;
+    clear: both;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
